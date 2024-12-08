@@ -1,0 +1,392 @@
+@font-face {
+    font-family: 'DMSans';
+    src: url(fonts/DMSans-Medium.ttf)
+}
+body{
+    margin: 0;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: #f4f4f4;
+    color: #3a3d43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DMSans';
+    font-size: small;
+    font-weight: lighter;
+    position: fixed;
+}
+.link{
+    color: #3a3d43;
+}
+.link:hover{
+    cursor: pointer;
+    text-decoration: underline 2px;
+}
+.header-para{
+    font-size: 14px;
+}
+.main-div{
+    width: 100%;
+    height: auto;
+}
+.new-arrivals{
+    background-image: url(images/Homepage-APR-Promo-Hero-Mobile-v3.jpg);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 800px;
+    padding-top: 50px;
+}
+.new-arrival-tags{
+    height: 100px;
+    width: 100%;
+}
+.logo-div{
+    height: 49px;
+    width: 200px;
+    float: left;
+    margin-left: 49px;
+    padding-top: 19px;
+}
+.Tesla-title{
+    height: 13px;
+    width: 113px;
+    float: left;
+}
+.services-div{
+    height: 60px;
+    width: 500px;
+    float: left;
+    padding-left: 241px;
+}
+.service-tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style: none;
+}
+.services{
+    font-family: 'DMSans';
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.help-tag{
+    margin-left: 35px;
+    justify-content: end;
+    width: 467px;
+    height: 20px;
+    display: flex;
+    padding-top: 13px;
+}
+.button1{
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-style: none;
+}
+.button1:hover{
+    cursor: pointer;
+}
+.offer-tag{
+    color: white;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'DMSans';
+    font-weight: normal;
+    align-items: end;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+}
+.order-button1{
+    height: 40px;
+    width: 237px;
+    border-radius: 5px;
+    border-style: none;
+    margin-right: 22px;
+    font-family: 'DMSans';
+    color: #3a3d43;
+}
+.order-button1:hover{
+    cursor: pointer;
+}
+.order-button{
+    height: 40px;
+    width: 237px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'DMSans';
+    color: #3a3d43;
+
+}
+.modelY{
+    background-image: url(images/ModelY.png);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 680px;
+
+}
+.modelY-container{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    margin-bottom: 404px;
+}
+.modelY-tags{
+    height: 150px;
+    width: 750px;
+    padding-top: 54px;
+    font-family: 'DMSans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+.ModelY{
+    font-size: 55px;
+    line-height: 0px;
+}
+.offer-tag1{
+    font-size: 38px;
+    text-decoration: underline;
+}
+.offer-lease{
+    font-size: 17px;
+}
+.order-button2{
+    height: 40px;
+    width: 237px;
+    border-radius: 5px;
+    border-style: none;
+    margin-right: 22px;
+    font-family: 'DMSans';
+    color: white;
+    background-color: #3e6ae1;
+}
+.button3{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.order-button2:hover{
+    cursor: pointer;
+}
+.order-button:hover{
+    cursor: pointer;
+}
+.offer-tag1:hover{
+    cursor: pointer;
+}
+.model3{
+    background-image: url(images/Model3.png);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 680px;
+}
+.modelx{
+    background-image: url(images/Model-X.png);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 680px;
+}
+.offer-tag2{
+    font-size: 38px;
+}
+.offer-lease1{
+    font-size: 17px;
+    text-decoration: underline;
+    text-align: center;
+}
+.models{
+    background-image: url(images/Model-S.png);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 680px;
+}
+.cybertruck{
+    background-image: url(images/Cybertruck-Desktop-v3.png);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 680px;
+}
+.cyberlogo{
+    height: 100px;
+    width: 300px;
+}
+.offer-lease2{
+    font-size: 17px;
+    text-align: center;
+}
+.order-button3{
+    height: 40px;
+    width: 237px;
+    border-style: none;
+    margin-right: 22px;
+    font-family: 'DMSans';
+    color: white;
+    background-color: black;
+    opacity: 80%;
+}
+.order-button4{
+    height: 40px;
+    width: 237px;
+    border-style: none;
+    margin-right: 22px;
+    font-family: 'DMSans';
+    color: white;
+    background-color: black;
+    opacity: 80%;
+}
+.order-button3:hover{
+    opacity: 65%;
+    cursor: pointer;
+}
+.order-button4:hover{
+    opacity: 65%;
+    cursor: pointer;
+}
+.solarpanels{
+    background-image: url(images/solarpanels.png);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 680px;
+    margin-bottom: -1px;
+}
+.solarroofs{
+    background-image: url(images/solarroof.png);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 682px;
+}
+.powerwall{
+    background-image: url(images/powerwall.png);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 680px;
+}
+.accessories{
+    background-image: url(images/accessories.png);
+    height: 680px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1525px 680px;
+    margin-bottom: -100px;
+}
+.video-div{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.tesla-vid{
+    width: 1508px;
+    height: 858px;
+    position: absolute;
+    z-index: -1;
+    border-style: none;
+}
+.join-div{
+    height: 200px;
+    width: 450px;
+    padding-left: 50px;
+    padding-top: 523px;
+}
+.join-button{
+    height: 40px;
+    width: 237px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'DMSans';
+    color: #3a3d43;
+}
+.join-tag{
+    font-family: 'DMSans';
+    color: white;
+    font-size: 45px;
+}
+.join-button:hover{
+    cursor: pointer;
+}
+.insturction-div{
+    height: 400px;
+    width: 100%;
+    color: #5c5e62;
+    font-family: 'DMSans';
+    font-size: 12px;
+    text-align: center;
+    padding-top: 150px;
+    float: left;
+}
+.Terms{
+    text-decoration: underline;
+    color: #5c5e62;
+}
+.Terms:hover{
+    text-decoration: underline 2px;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #3e6ae1;
+}
+.footerlist{
+    width: 1035px;
+    height: 50px;
+    float: left;
+    margin-bottom: 50px;
+}
+.footer-list{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 450px;
+}
+.footerlinks{
+    text-decoration: none;
+    color: #5c5e62;
+    list-style: none;
+    font-family: 'DMSans';
+    font-size: 12px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+.steering{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.schedule{
+    font-family: 'DMSans';
+    color: black;
+    font-size: 16px;
+}
